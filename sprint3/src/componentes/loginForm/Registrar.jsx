@@ -60,7 +60,7 @@ function RegistrarForm({ setUser }) {
       setUser({ nombreUsuario: usuario }); // Asume que setUser toma un objeto de usuario
 
       // Redirige al usuario a la página de inicio de sesión (Login.jsx)
-      router.push('/componentes/loginForm/Login'); // Reemplaza '/login' con la ruta correcta
+      router.push('/login'); // Reemplaza '/login' con la ruta correcta
     } else {
       // Si el registro falló, maneja el error (puedes mostrar un mensaje de error)
       setError(true);
