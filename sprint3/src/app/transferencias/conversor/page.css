@@ -1,0 +1,40 @@
+.containerConversor {
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 1.563em;
+    padding: 1rem;
+    -webkit-box-shadow:0px 10px 39px 10px rgba(62,66,66,0.21);
+    -moz-box-shadow: 0px 10px 39px 10px rgba(62,66,66,0.21);
+    box-shadow: 0px 10px 39px 10px rgba(62,66,66,0.21);
+    display: flex;
+    flex-direction: column;
+  }
+  .containerConversor > * {
+    max-width: 100%; /* Evita que los elementos crezcan más allá del ancho del contenedor */
+    margin: 0px; /* Espacio entre elementos */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.textConversor{
+  width: 100%;
+  margin-top: 3rem;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 68, 255, 0.808);
+  gap: 10px;
+  text-align: center;
+}

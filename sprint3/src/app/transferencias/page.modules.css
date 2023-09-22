@@ -1,0 +1,57 @@
+/* Estilos para el contenedor */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.textTransferencias{
+  width: 100%;
+  margin-top: 3rem;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(0, 68, 255, 0.808);
+  gap: 10px;
+  text-align: center;
+}
+.textTransferencias p{
+  color: black;
+}
+.contenedor{
+  
+  font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    height: 350px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow:0px 10px 39px 10px rgba(62,66,66,0.21);
+    -moz-box-shadow: 0px 10px 39px 10px rgba(62,66,66,0.21);
+    box-shadow: 0px 10px 39px 10px rgba(62,66,66,0.21);
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+  }
+.buttonTransferencias {
+    padding: 10px 20px;
+    margin: 10px;
+    width: 150px;
+    font-size: 16px;
+    background-color: #007bff; /* Cambia el color de fondo a tu elección */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttonTransferencias:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el mouse */
+  }
+  

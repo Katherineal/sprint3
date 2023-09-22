@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.containerForm{
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Form{
+    width: 900px;
+    padding: 50px;
+    border-radius: 24px;
+    -webkit-box-shadow:0px 10px 39px 10px rgba(62,66,66,0.21);
+    -moz-box-shadow: 0px 10px 39px 10px rgba(62,66,66,0.21);
+    box-shadow: 0px 10px 39px 10px rgba(62,66,66,0.21);
+}
+#Asunto{
+    color: rgb(87, 84, 84) !important;
+}
+.checkForm{
+    padding: 14px 0px;
+}
+
+@media(max-width: 910px){
+    .containerForm{
+        padding: 20px;
+    }
+    .Form{
+        width: 500px;
+    }
+}
