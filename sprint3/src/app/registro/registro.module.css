@@ -1,0 +1,116 @@
+/* login.module.css */
+
+.loginSection {
+  text-align: center; /* Centra el contenido horizontalmente */
+  padding: 70px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.titleRegistro {
+  color: rgba(0, 68, 255, 0.808);
+  font-size: 33px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.subtitleRegistro {
+  color: rgba(41, 83, 197, 0.89);
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido verticalmente */
+  border: 1px solid #ccc; /* Agrega un borde al contenedor */
+  border-radius: 35px; /* Bordes semi-redondos */
+  padding: 30px;
+  width: 400px; /* Establece el ancho del contenedor */
+  margin: auto; /* Centra el contenedor horizontalmente */
+  margin-top: 50px;
+  box-shadow: 0 0 15px rgba(5, 3, 129, 0.363); /* Aplica una sombra con un color RGBA */
+  background-color: rgb(251, 251, 255);
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2.5px;
+  margin-bottom: 8px;
+  gap: 0.5rem;
+  padding: 20px;
+  width: fit-content;
+}
+
+/* Estilo para los labels */
+.label {
+  margin-bottom: 5px; /* Espacio entre los labels y los campos de entrada */
+  color: black;
+}
+
+/* Estilo para los campos de entrada */
+.texto {
+  border-radius: 20px; /* Radio de las esquinas, puedes ajustarlo según tus preferencias */
+  border: 1px solid rgba(0, 68, 255, 0.808); /* Color del borde*/
+  padding: 8px;
+  margin-bottom: 8px; /* Espacio entre los campos de entrada */
+  width: 350px;
+}
+
+.seleccionar {
+  border-radius: 20px; /* Radio de las esquinas, puedes ajustarlo según tus preferencias */
+  border: 1px solid rgba(0, 68, 255, 0.808); /* Color del borde*/
+  padding: 8px;
+  margin-bottom: 8px; /* Espacio entre los campos de entrada */
+  width: 368px;
+}
+
+/* Estilo para el botón de enviar */
+#buttonAccess {
+  background-color: rgba(0, 68, 255, 0.808); /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 20px; /* Bordes semi-redondos */
+  padding: 10px 20px;
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  font-size: 16px;
+}
+
+#buttonAccess:hover {
+  background-color: rgb(11, 175, 11); /* Color de fondo del botón al pasar sobre él */
+}
+
+
+/* Estilos para dispositivos móviles y tablets */
+@media (max-width: 768px) {
+  .loginContainer {
+    padding: 20px; /* Reducir el espacio interno del contenedor */
+    border-radius: 15px; /* Reducir la curvatura de los bordes */
+  }
+
+  .loginForm {
+    align-items: center; /* Centrar los elementos verticalmente */
+    gap: 1rem; /* Aumentar el espacio entre elementos */
+  }
+
+  /* Estilos para los campos de entrada */
+  .texto,
+  .seleccionar {
+    border-radius: 20px; /* Bordes semi-redondos */
+    padding: 8px;
+    margin-bottom: 8px; /* Espacio entre los campos de entrada */
+    width: 100%;
+  }
+
+  /* Estilos para el botón de enviar */
+  #buttonAccess {
+    border: none; /* Elimina el borde del botón */
+    border-radius: 20px; /* Bordes semi-redondos */
+    padding: 10px 20px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+  }
+}
